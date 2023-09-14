@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "yekanbakh";
+}
+
+@font-face {
+    font-family: "yekanbakh";
+    src: url("../../public//fonts//YekanBakh-Regular.woff2") format("truetype");
+}
